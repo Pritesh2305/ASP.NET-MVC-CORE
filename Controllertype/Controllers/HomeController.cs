@@ -17,7 +17,7 @@ namespace Controllertype.Controllers
         public ActionResult Getstd()
         {
             int stdid = 101;
-            string stdnm = "Pritesh";
+            string stdnm = "Pritesh Bhavsar";
             Response.Write("Student Id : " + stdid + "<br>");
             Response.Write("Student Name : " + stdnm + "<br>");
             Response.Write("Student Total : " + this.GetTotal(10,23,20) + "<br>");
